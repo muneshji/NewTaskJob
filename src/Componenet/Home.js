@@ -44,8 +44,8 @@ const Home = (props, navigation) => {
 
     const removeData = (index) => {
         if(data.length >1){
-           let newData = [...data]; //copy array from prevState
-            newData.splice(index, 1); // remove element
+           let newData = [...data];
+            newData.splice(index, 1);
             setData(newData);
         }
        
